@@ -1,0 +1,22 @@
+class Telephone
+{
+int price=1500;
+String name="Phone";
+public void call()
+{
+System.out.println("Calling Facility");
+}
+public void receive_call()
+{
+System.out.println("Receiving call facility");
+}
+public static void main(String[] args)
+{
+Telephone bsn1=new Telephone();
+System.out.println(bsn1.price);
+System.out.println(bsn1.name);
+bsn1.call();
+bsn1.receive_call();
+
+}
+}
